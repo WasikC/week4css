@@ -1,82 +1,22 @@
-body {
-    position: relative;
-}
+h1 {color: blue; font-size: 40px;}
 
-header {
-    background-color: linen;
-}
-
-section {
-    background-color: lightpink;
-}
-
-article {
-    background-color: lightblue;
-}
-
-aside {
-    background-color: lavender;
-    max-width: 500px;
-}
-
-div {
-    background-color: lightgoldenrodyellow;
-    max-width: 80%;
-}
-
-.colorbox {
-    /* padding: 5px; */
-    /* margin: 50px; */
-    /* display: block; */
-    max-width: 100%;
+p { font-size: small; 
+    text-decoration: none; }
+    
+* {
+    color:red;
 }
 
 
-.boxy.square {
-    border: 2px solid red;
-    border-radius: 15px;
+.refrigerator {background-color:aquamarine;
+
 }
 
-ul {
-    list-style-type: none;  /*removes the bullets from the list*/
-    margin: 0;  /* removes default margin*/
-    padding: 0; /* removes default padding*/
-}
-li {
-    display: inline;  
-    /* makes the list items sit next to each other */
-    /* float: left; */
-}
-
-li a {
+#wasik {
+    padding: 100px 50px 100px 50px;
+    border: 1px solid gray;
+    width: 30%; 
+    height: 50px;
     display: block; 
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover {
-    background-color: #aaa;
-}
-
-h2 {
-    color: hotpink;
-    margin: 10px 20px 0;
-}
-
-h2 {
-    text-color: hotpink;
-    margin: 10px 0 20px 20px;
-}
-
-h2 {
-    color: hotpink;
-    margin: 10px 20px 20px 0;
-}
-
-h2 {
-    color: hotpink;
-    margin-top: 10px;
-    margin-right: 20px;
-    margin-bottom: 0;
-    margin-left: 20px;
+    position: absolute;
 }
